@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+h1 #gen{
+    color: white;
+    border-bottom: none;
+}
+h1{
+    margin-left: 25%;
+    margin-top: 25%;
+}
+h1 span{
+    color: burlywood;
+    border-bottom: 3px solid white;
+}
+.container img{
+    height: 25px;
+    width: 30px;
+    cursor: pointer;
+   
+}
+.display{
+   width: 60%;
+   margin-left: 20%;
+   margin-top: 50px;
+   margin-bottom: 30px;
+   display: flex;
+   align-items: center;
+   background:#fff ;
+   color: #333;
+   justify-content: space-between;
+   padding: 25px 20px;
+   border-radius: 5px;
+    
+
+}
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+}
+.container button{
+    margin-left: 20%;
+    margin-top: 7%;
+
+    border: 0;
+    outline: 0;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+
+}
